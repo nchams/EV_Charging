@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_69d0810462edf8a1a2f288c1f83fef0b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_69d0810462edf8a1a2f288c1f83fef0b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_69d0810462edf8a1a2f288c1f83fef0b = L.map(
+                "map_69d0810462edf8a1a2f288c1f83fef0b",
+                {
+                    center: [40.014985, -105.270546],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dabfef9fbbaeb1a66b6de9c2e909a9f7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var marker_f31676e909a1546c2e7cf49006ccc560 = L.marker(
+                [40.0242133, -105.2517848],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_b880dc2f7592737f172884c21047e607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f31676e909a1546c2e7cf49006ccc560.setIcon(icon_b880dc2f7592737f172884c21047e607);
+        
+    
+        var popup_ec419d8ecc527b981e7f339d35aef495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b442ee0ae344179ae933b893d6f5fc27 = $(`<div id="html_b442ee0ae344179ae933b893d6f5fc27" style="width: 100.0%; height: 100.0%;">BOULDER / JUNCTION ST1</div>`)[0];
+                popup_ec419d8ecc527b981e7f339d35aef495.setContent(html_b442ee0ae344179ae933b893d6f5fc27);
+            
+        
+
+        marker_f31676e909a1546c2e7cf49006ccc560.bindPopup(popup_ec419d8ecc527b981e7f339d35aef495)
+        ;
+
+        
+    
+    
+            var marker_f5670b9167762d5271c42edb928eaf6f = L.marker(
+                [39.9746374, -105.2486267],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_f458569a06f3ba5e54ea1fa1d479a1e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f5670b9167762d5271c42edb928eaf6f.setIcon(icon_f458569a06f3ba5e54ea1fa1d479a1e0);
+        
+    
+        var popup_da6eaebe0ce965ec936c3bc741dd4a28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbab9e2e8020510f11f7533b422e72e2 = $(`<div id="html_dbab9e2e8020510f11f7533b422e72e2" style="width: 100.0%; height: 100.0%;">BOULDER / REC CENTER ST1</div>`)[0];
+                popup_da6eaebe0ce965ec936c3bc741dd4a28.setContent(html_dbab9e2e8020510f11f7533b422e72e2);
+            
+        
+
+        marker_f5670b9167762d5271c42edb928eaf6f.bindPopup(popup_da6eaebe0ce965ec936c3bc741dd4a28)
+        ;
+
+        
+    
+    
+            var marker_a2451cabd846a34e4d2549de997bbaa3 = L.marker(
+                [40.01847040000001, -105.2752993],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_02d9d9cff2e7460bd0b594664194749f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a2451cabd846a34e4d2549de997bbaa3.setIcon(icon_02d9d9cff2e7460bd0b594664194749f);
+        
+    
+        var popup_258341eef73d987d4cebf3847d5e3117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4515fb68af1d5dc27cda25b30d0c0d4 = $(`<div id="html_e4515fb68af1d5dc27cda25b30d0c0d4" style="width: 100.0%; height: 100.0%;">COMM VITALITY / 1500PEARL2</div>`)[0];
+                popup_258341eef73d987d4cebf3847d5e3117.setContent(html_e4515fb68af1d5dc27cda25b30d0c0d4);
+            
+        
+
+        marker_a2451cabd846a34e4d2549de997bbaa3.bindPopup(popup_258341eef73d987d4cebf3847d5e3117)
+        ;
+
+        
+    
+    
+            var marker_0a9b121e1d64a83e5e1ca7a40efbe0a7 = L.marker(
+                [40.0244932, -105.2520205],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_2b441c97474afd4af5f0985d07f55200 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0a9b121e1d64a83e5e1ca7a40efbe0a7.setIcon(icon_2b441c97474afd4af5f0985d07f55200);
+        
+    
+        var popup_4a00a146f55c2843e9029a7a63371c2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2bd90df6fc209b72d269828b783bf96 = $(`<div id="html_b2bd90df6fc209b72d269828b783bf96" style="width: 100.0%; height: 100.0%;">COMM VITALITY / BOULDER JCTN</div>`)[0];
+                popup_4a00a146f55c2843e9029a7a63371c2e.setContent(html_b2bd90df6fc209b72d269828b783bf96);
+            
+        
+
+        marker_0a9b121e1d64a83e5e1ca7a40efbe0a7.bindPopup(popup_4a00a146f55c2843e9029a7a63371c2e)
+        ;
+
+        
+    
+    
+            var marker_c860e598cedb5aaf3ba5e928cba4f936 = L.marker(
+                [40.023776, -105.180846],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_186ddfa9bbf807a84defd2ed475990cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c860e598cedb5aaf3ba5e928cba4f936.setIcon(icon_186ddfa9bbf807a84defd2ed475990cb);
+        
+    
+        var popup_f8106114b1cb7131f8fdba8a92bc202d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43c43323622c30e771fec91f2bbc8d00 = $(`<div id="html_43c43323622c30e771fec91f2bbc8d00" style="width: 100.0%; height: 100.0%;">BOULDER / ANNEX ST1</div>`)[0];
+                popup_f8106114b1cb7131f8fdba8a92bc202d.setContent(html_43c43323622c30e771fec91f2bbc8d00);
+            
+        
+
+        marker_c860e598cedb5aaf3ba5e928cba4f936.bindPopup(popup_f8106114b1cb7131f8fdba8a92bc202d)
+        ;
+
+        
+    
+    
+            var marker_65562854b7693d2a360db8bd6f9928ba = L.marker(
+                [40.017915, -105.279955],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_0ee45fed69a3b93b3c0202f882545511 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_65562854b7693d2a360db8bd6f9928ba.setIcon(icon_0ee45fed69a3b93b3c0202f882545511);
+        
+    
+        var popup_0f805cf5897dd66dfbb5706f8dc96b56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dd0ccfc1597b046425d0a91bb3d3f73 = $(`<div id="html_4dd0ccfc1597b046425d0a91bb3d3f73" style="width: 100.0%; height: 100.0%;">COMM VITALITY / 5050 PEARL 1</div>`)[0];
+                popup_0f805cf5897dd66dfbb5706f8dc96b56.setContent(html_4dd0ccfc1597b046425d0a91bb3d3f73);
+            
+        
+
+        marker_65562854b7693d2a360db8bd6f9928ba.bindPopup(popup_0f805cf5897dd66dfbb5706f8dc96b56)
+        ;
+
+        
+    
+    
+            var marker_4db6255a0b8ee1aaf91b80b6eb293100 = L.marker(
+                [40.0297877, -105.2298162],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_068c50c8d24daeb8ad5c812f6115893a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4db6255a0b8ee1aaf91b80b6eb293100.setIcon(icon_068c50c8d24daeb8ad5c812f6115893a);
+        
+    
+        var popup_16444ea851d85d7f029b511915a943da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61fff9aa82e3c12498d5927deb3309b6 = $(`<div id="html_61fff9aa82e3c12498d5927deb3309b6" style="width: 100.0%; height: 100.0%;">BOULDER / VALMONT ST2</div>`)[0];
+                popup_16444ea851d85d7f029b511915a943da.setContent(html_61fff9aa82e3c12498d5927deb3309b6);
+            
+        
+
+        marker_4db6255a0b8ee1aaf91b80b6eb293100.bindPopup(popup_16444ea851d85d7f029b511915a943da)
+        ;
+
+        
+    
+    
+            var marker_673cef7898fe02e57b099a5585a538b3 = L.marker(
+                [40.025389842490696, -105.24804409235313],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_84b5adb12b7a03e06a9361da11e60db9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_673cef7898fe02e57b099a5585a538b3.setIcon(icon_84b5adb12b7a03e06a9361da11e60db9);
+        
+    
+        var popup_df4a657aebd007f8811c0645d7252fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e82bdf4832f5c061b99337fb7e48143c = $(`<div id="html_e82bdf4832f5c061b99337fb7e48143c" style="width: 100.0%; height: 100.0%;">New Charging Station 1</div>`)[0];
+                popup_df4a657aebd007f8811c0645d7252fe1.setContent(html_e82bdf4832f5c061b99337fb7e48143c);
+            
+        
+
+        marker_673cef7898fe02e57b099a5585a538b3.bindPopup(popup_df4a657aebd007f8811c0645d7252fe1)
+        ;
+
+        
+    
+    
+            var marker_e5ab29c874f8a1ac980e66adecc94e96 = L.marker(
+                [40.023776, -105.180846],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_fdce6b656cfa4e47c0426de4580d053e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e5ab29c874f8a1ac980e66adecc94e96.setIcon(icon_fdce6b656cfa4e47c0426de4580d053e);
+        
+    
+        var popup_ee5008ec7c59e495d8fedb8d5cc66af4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf70dc6c42faf40da9977972199eb869 = $(`<div id="html_bf70dc6c42faf40da9977972199eb869" style="width: 100.0%; height: 100.0%;">New Charging Station 2</div>`)[0];
+                popup_ee5008ec7c59e495d8fedb8d5cc66af4.setContent(html_bf70dc6c42faf40da9977972199eb869);
+            
+        
+
+        marker_e5ab29c874f8a1ac980e66adecc94e96.bindPopup(popup_ee5008ec7c59e495d8fedb8d5cc66af4)
+        ;
+
+        
+    
+    
+            var marker_d25f9933cb84a1bf77a3db6f1dc6d1a3 = L.marker(
+                [40.017915, -105.279955],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_4239b33b1550479bfbe4539edea0eee9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d25f9933cb84a1bf77a3db6f1dc6d1a3.setIcon(icon_4239b33b1550479bfbe4539edea0eee9);
+        
+    
+        var popup_56dcdecd204d7e0b25286f665c43e5cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96ba0465cb81ff40ee0420bced6a21d4 = $(`<div id="html_96ba0465cb81ff40ee0420bced6a21d4" style="width: 100.0%; height: 100.0%;">New Charging Station 3</div>`)[0];
+                popup_56dcdecd204d7e0b25286f665c43e5cd.setContent(html_96ba0465cb81ff40ee0420bced6a21d4);
+            
+        
+
+        marker_d25f9933cb84a1bf77a3db6f1dc6d1a3.bindPopup(popup_56dcdecd204d7e0b25286f665c43e5cd)
+        ;
+
+        
+    
+    
+            var marker_315656ab40af19c4d87af253057e8798 = L.marker(
+                [39.974637400000006, -105.2486267],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_4fc276d1b4245f46301179cdbf99dc98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_315656ab40af19c4d87af253057e8798.setIcon(icon_4fc276d1b4245f46301179cdbf99dc98);
+        
+    
+        var popup_826234b13857b1d0d2b276fb39cd040c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc28d192d748e9b2b4337dfed8a5cf15 = $(`<div id="html_dc28d192d748e9b2b4337dfed8a5cf15" style="width: 100.0%; height: 100.0%;">New Charging Station 4</div>`)[0];
+                popup_826234b13857b1d0d2b276fb39cd040c.setContent(html_dc28d192d748e9b2b4337dfed8a5cf15);
+            
+        
+
+        marker_315656ab40af19c4d87af253057e8798.bindPopup(popup_826234b13857b1d0d2b276fb39cd040c)
+        ;
+
+        
+    
+    
+            var marker_1edb30568d70627769b02a0bbc4b0ce7 = L.marker(
+                [40.01847040000001, -105.2752993],
+                {}
+            ).addTo(map_69d0810462edf8a1a2f288c1f83fef0b);
+        
+    
+            var icon_ae0513ef8c78845ecf92d34efaab247a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plug", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1edb30568d70627769b02a0bbc4b0ce7.setIcon(icon_ae0513ef8c78845ecf92d34efaab247a);
+        
+    
+        var popup_cc8bc98daf7e0a8af43df5171d33b1e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d2c97f7f32706a7d3304a286b54010f = $(`<div id="html_7d2c97f7f32706a7d3304a286b54010f" style="width: 100.0%; height: 100.0%;">New Charging Station 5</div>`)[0];
+                popup_cc8bc98daf7e0a8af43df5171d33b1e5.setContent(html_7d2c97f7f32706a7d3304a286b54010f);
+            
+        
+
+        marker_1edb30568d70627769b02a0bbc4b0ce7.bindPopup(popup_cc8bc98daf7e0a8af43df5171d33b1e5)
+        ;
+
+        
+    
+</script>
+</html>
